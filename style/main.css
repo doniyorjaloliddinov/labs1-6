@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.header-info {
+  text-align: center;
+}
+
+.site-main-content {
+  font-weight: bold;
+}
+
+.bgimage {
+  height: 500px;
+  margin-top: 30px;
+  background-image: url(../img/tuit.jpg);
+  background-position: top 0;
+  background-repeat: no-repeat;
+}
+
+.bgimage-heading {
+  color: rgb(13, 136, 207);
+  text-align: center;
+}
+
+/* FIRST-LAB */
+.first-lab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* //FIRST-LAB */
+
+
+/* SECOND-LAB */
+.second-lab {
+  margin-top: 40px;
+}
+
+.second-lab-btn {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(13, 236, 251);
+  border-radius: 5px;
+}
+/* //SECOND-LAB */
+
+
+.third-lab-wrapper {
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 150px;
+  /* text-align: center; */
+}
+
+
+/* FOUTH-LAB */
+.btn__container {
+  text-align: center;
+}
+
+.all-btn {
+  width: 130px;
+  height: 30px;
+  margin-left: 25px;
+  background-color: rgb(207, 25, 25);
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.all-btn-content{
+  color: rgb(245, 222, 179);
+}
+
+.btn_simple {
+  margin-left: 0;
+}
+
+.btn_hovered:hover {
+  background-color: rgb(0, 255, 255) ;
+}
+
+.hover-btn-content:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+.active_btn:active {
+  background-color: rgb(255, 255, 0);
+}
+
+.active-btn-content:active {
+  color: rgb(27, 22, 22);
+}
